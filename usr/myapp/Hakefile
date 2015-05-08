@@ -1,0 +1,5 @@
+[build application { target = "myapp",
+                      cFiles = [ "myapp.c" ]
+                    }
+]
+
