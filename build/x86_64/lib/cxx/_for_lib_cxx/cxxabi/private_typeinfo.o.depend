@@ -1,0 +1,7 @@
+x86_64/lib/cxx/_for_lib_cxx/cxxabi/private_typeinfo.o \
+ x86_64/lib/cxx/_for_lib_cxx/cxxabi/private_typeinfo.o.depend: \
+ ../lib/cxx/cxxabi/private_typeinfo.cpp \
+ ../lib/cxx/cxxabi/private_typeinfo.h ../include/cxx/typeinfo \
+ ../include/cxx/__config ../include/cxx/exception ../include/cxx/cstddef \
+ ../include/c/stddef.h ../include/cxx/type_traits ../include/cxx/cstdint \
+ ../lib/newlib/newlib/libc/include/stdint.h

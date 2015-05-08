@@ -1,0 +1,28 @@
+x86_64/usr/bench/rcce/bt/_for_app_rcce_bt_A36/make_set.o \
+ x86_64/usr/bench/rcce/bt/_for_app_rcce_bt_A36/make_set.o.depend: \
+ ../usr/bench/rcce/bt/make_set.c \
+ ../lib/newlib/newlib/libc/include/stdio.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h ../include/c/stddef.h \
+ ../include/c/stdarg.h ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/stdint.h \
+ ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../include/sys/types.h ../include/sys/cdefs.h \
+ ../include/barrelfish/types.h ../include/barrelfish_kpi/types.h \
+ ../lib/newlib/newlib/libc/include/inttypes.h \
+ ../lib/newlib/newlib/libc/include/stdlib.h \
+ ../lib/newlib/newlib/libc/include/machine/stdlib.h \
+ ../lib/newlib/newlib/libc/include/alloca.h \
+ ../include/barrelfish/static_assert.h \
+ ../lib/newlib/newlib/libc/include/sys/stdio.h \
+ ../lib/newlib/newlib/libc/include/math.h ../usr/bench/rcce/bt/header.h \
+ ../usr/bench/rcce/bt/npbparams.h ../usr/bench/rcce/bt/npbparams.h.A.36 \
+ ../include/rcce/RCCE.h ../usr/bench/rcce/bt/common.h \
+ ../usr/bench/rcce/bt/mpinpb.h

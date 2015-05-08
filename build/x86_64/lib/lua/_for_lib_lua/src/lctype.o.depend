@@ -1,0 +1,7 @@
+x86_64/lib/lua/_for_lib_lua/src/lctype.o \
+ x86_64/lib/lua/_for_lib_lua/src/lctype.o.depend: ../lib/lua/src/lctype.c \
+ ../lib/lua/src/lctype.h ../include/lua/lua.h ../include/c/stdarg.h \
+ ../include/c/stddef.h ../include/lua/luaconf.h ../include/limits.h \
+ ../include/sys/cdefs.h ../include/arch/x86_64/machine/_limits.h \
+ ../lib/newlib/newlib/libc/include/sys/syslimits.h \
+ ../lib/lua/src/llimits.h

@@ -1,0 +1,43 @@
+x86_64/lib/cxx/_for_lib_cxx/unwind/AddressSpace.o \
+ x86_64/lib/cxx/_for_lib_cxx/unwind/AddressSpace.o.depend: \
+ ../lib/cxx/unwind/AddressSpace.cpp ../lib/cxx/include/unwind.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stddef.h \
+ ../lib/cxx/unwind/config.h ../lib/newlib/newlib/libc/include/assert.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h \
+ ../lib/newlib/newlib/libc/include/stdio.h ../include/c/stdarg.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../include/sys/types.h ../include/sys/cdefs.h \
+ ../include/barrelfish/types.h ../include/barrelfish_kpi/types.h \
+ ../lib/newlib/newlib/libc/include/inttypes.h \
+ ../lib/newlib/newlib/libc/include/stdlib.h \
+ ../lib/newlib/newlib/libc/include/machine/stdlib.h \
+ ../lib/newlib/newlib/libc/include/alloca.h \
+ ../include/barrelfish/static_assert.h \
+ ../lib/newlib/newlib/libc/include/sys/stdio.h \
+ ../lib/cxx/unwind/AddressSpace.hpp \
+ ../lib/newlib/newlib/libc/include/string.h \
+ ../lib/newlib/newlib/libc/include/sys/string.h ../include/dlfcn.h \
+ ../lib/cxx/include/libunwind.h ../lib/cxx/unwind/dwarf2.h \
+ ../lib/cxx/unwind/Registers.hpp ../include/strings.h \
+ ../lib/cxx/unwind/DwarfParser.hpp ../include/cxx/vector \
+ ../include/cxx/__config ../include/cxx/__bit_reference \
+ ../include/cxx/algorithm ../include/cxx/initializer_list \
+ ../include/cxx/cstddef ../include/cxx/type_traits ../include/cxx/cstring \
+ ../include/cxx/utility ../include/cxx/__tuple ../include/cxx/memory \
+ ../include/cxx/typeinfo ../include/cxx/exception ../include/cxx/cstdint \
+ ../include/cxx/new ../include/cxx/limits ../include/cxx/__undef_min_max \
+ ../include/cxx/iterator ../include/cxx/__functional_base \
+ ../include/cxx/iosfwd ../lib/newlib/newlib/libc/include/wchar.h \
+ ../include/cxx/tuple ../include/cxx/climits ../include/limits.h \
+ ../include/arch/x86_64/machine/_limits.h \
+ ../lib/newlib/newlib/libc/include/sys/syslimits.h \
+ ../include/cxx/stdexcept ../include/cxx/__split_buffer

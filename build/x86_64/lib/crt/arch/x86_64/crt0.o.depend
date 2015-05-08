@@ -1,0 +1,3 @@
+x86_64/lib/crt/arch/x86_64/crt0.o \
+ x86_64/lib/crt/arch/x86_64/crt0.o.depend: ../lib/crt/arch/x86_64/crt0.S \
+ ../include/barrelfish/dispatch.h x86_64/include/asmoffsets.h

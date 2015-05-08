@@ -1,0 +1,18 @@
+x86_64/lib/newlib/newlib/libm/complex/_for_lib_complex/cephes_subrf.o \
+ x86_64/lib/newlib/newlib/libm/complex/_for_lib_complex/cephes_subrf.o.depend: \
+ ../lib/newlib/newlib/libm/complex/cephes_subrf.c \
+ ../lib/newlib/newlib/libc/include/complex.h ../include/sys/cdefs.h \
+ ../lib/newlib/newlib/libc/include/math.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stddef.h \
+ ../include/c/stdarg.h ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libm/complex/cephes_subrf.h

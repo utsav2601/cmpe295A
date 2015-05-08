@@ -1,0 +1,7 @@
+x86_64/lib/cxx/_for_lib_cxx/cxxabi/cxa_aux_runtime.o \
+ x86_64/lib/cxx/_for_lib_cxx/cxxabi/cxa_aux_runtime.o.depend: \
+ ../lib/cxx/cxxabi/cxa_aux_runtime.cpp ../lib/cxx/include/cxxabi.h \
+ ../include/c/stddef.h ../lib/newlib/newlib/libc/include/stdint.h \
+ ../include/cxx/new ../include/cxx/__config ../include/cxx/exception \
+ ../include/cxx/cstddef ../include/cxx/type_traits \
+ ../include/cxx/typeinfo ../include/cxx/cstdint

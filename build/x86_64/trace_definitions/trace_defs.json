@@ -1,0 +1,289 @@
+{
+0 : {
+	"name" : "kernel",
+	"events" : {
+		0 : ["CSWITCH", "Context Switch" ],
+		1 : ["BZERO", "Buffer zeroing" ],
+		2 : ["TIMER", "TIMER" ],
+		3 : ["TIMER_SYNC", "TIMER_SYNC" ],
+		4 : ["SCHED_MAKE_RUNNABLE", "SCHED_MAKE_RUNNABLE" ],
+		5 : ["SCHED_REMOVE", "SCHED_REMOVE" ],
+		6 : ["SCHED_YIELD", "SCHED_YIELD" ],
+		7 : ["SCHED_SCHEDULE", "SCHED_SCHEDULE" ],
+		8 : ["SCHED_CURRENT", "SCHED_CURRENT" ],
+		9 : ["CORE_START_REQUEST", "Requested start of a new core." ],
+		10 : ["CORE_START_REQUEST_DONE", "Request is sent, waiting for core to come up." ],
+		11 : ["CORE_START_REQUEST_ACK", "Core is online." ],
+		12 : ["SC_PRINT", "Syscall PRINT" ],
+		13 : ["SC_DISP_SETUP", "Syscall DISPATCHER " ],
+		14 : ["SC_DISP_PROPS", "Syscall DISPATCHER_PROPS" ],
+		15 : ["SC_RETYPE", "Syscall RETYPE" ],
+		16 : ["SC_CREATE", "Syscall CREATE" ],
+		17 : ["SC_COPY_OR_MINT", "Syscall COPY_OR_MINT" ],
+		18 : ["SC_CTE_FOR_CAP", "Syscall CTE_FOR_CAP" ],
+		19 : ["SC_MAP", "Syscall MAP" ],
+		20 : ["SC_UNMAP", "Syscall UNMAP" ],
+		21 : ["SC_DELETE", "Syscall DELETE" ],
+		22 : ["SC_REVOKE", "Syscall REVOKE" ],
+		23 : ["SC_MONITOR_REGISTER", "Syscall MONITOR_REGISTER" ],
+		24 : ["SC_IDENTIFY_CAP", "Syscall IDENTIFY_CAP" ],
+		25 : ["SC_NULLIFY_CAP", "Syscall NULLIFY_CAP" ],
+		26 : ["SC_DOMAIN_ID", "Syscall DOMAIN_ID" ],
+		27 : ["SC_YIELD", "Syscall YIELD" ],
+		28 : ["SC_SUSPEND", "Syscall SUSPEND" ],
+		29 : ["SC_IDCAP_IDENTIFY", "Syscall IDCAP_IDENTIFY" ],
+		30 : ["SC_SPAWN_CORE", "Syscall SPAWN_CORE" ],
+		31 : ["CAP_LOOKUP_SLOT", "Cap Slot lookup" ],
+		32 : ["CAP_LOOKUP_CAP", "Cap Lookup" ],
+		33 : ["CAP_CREATE_FROM_EXISTING", "Cap Create from existing" ],
+		34 : ["CAP_CREATE_NEW", "Cap Create new" ],
+		35 : ["CAP_RETYPE", "Cap Retype" ]
+	}
+},
+1 : {
+	"name" : "threads",
+	"events" : {
+		0 : ["BARRIER_ENTER", "BARRIER_ENTER" ],
+		1 : ["BARRIER_LEAVE", "BARRIER_LEAVE" ],
+		2 : ["MUTEX_LOCK_ENTER", "MUTEX_LOCK_ENTER" ],
+		3 : ["MUTEX_LOCK_LEAVE", "MUTEX_LOCK_LEAVE" ],
+		4 : ["MUTEX_LOCK_NESTED_ENTER", "MUTEX_LOCK_NESTED_ENTER" ],
+		5 : ["MUTEX_LOCK_NESTED_LEAVE", "MUTEX_LOCK_NESTED_LEAVE" ],
+		6 : ["MUTEX_TRYLOCK", "MUTEX_TRYLOCK" ],
+		7 : ["MUTEX_UNLOCK", "MUTEX_UNLOCK" ],
+		8 : ["COND_WAIT_ENTER", "COND_WAIT_ENTER" ],
+		9 : ["COND_WAIT_LEAVE", "COND_WAIT_LEAVE" ],
+		10 : ["COND_SIGNAL", "COND_SIGNAL" ],
+		11 : ["COND_BROADCAST", "COND_BROADCAST" ],
+		12 : ["SEM_WAIT_ENTER", "SEM_WAIT_ENTER" ],
+		13 : ["SEM_WAIT_LEAVE", "SEM_WAIT_LEAVE" ],
+		14 : ["SEM_TRYWAIT", "SEM_TRYWAIT" ],
+		15 : ["SEM_POST", "SEM_POST" ],
+		16 : ["SYS_YIELD", "Calling sys_yield for co-op scheduling" ],
+		17 : ["C_DISP_SAVE", "calling disp_save" ]
+	}
+},
+2 : {
+	"name" : "memserv",
+	"events" : {
+		0 : ["ALLOC", "ALLOC" ],
+		1 : ["PERCORE_INIT", "PERCORE_INIT" ],
+		2 : ["PERCORE_ALLOC", "PERCORE_ALLOC" ],
+		3 : ["PERCORE_ALLOC_COMPLETE", "PERCORE_ALLOC_COMPLETE" ]
+	}
+},
+3 : {
+	"name" : "memtest",
+	"events" : {
+		0 : ["START", "START" ],
+		1 : ["STOP", "STOP" ],
+		2 : ["STARTED", "STARTED" ],
+		3 : ["WAIT", "WAIT" ],
+		4 : ["RUN", "RUN" ],
+		5 : ["DONE", "DONE" ],
+		6 : ["ALLOC", "ALLOC" ],
+		7 : ["MASTER", "MASTER" ],
+		8 : ["WORKER", "WORKER" ]
+	}
+},
+4 : {
+	"name" : "monitor",
+	"events" : {
+		0 : ["SPAN0", "SPAN0" ],
+		1 : ["SPAN1", "SPAN1" ],
+		2 : ["SPAN", "SPAN" ],
+		3 : ["PCREQ", "PCREQ" ],
+		4 : ["PCREP", "PCREP" ],
+		5 : ["PCREQ_INTER", "PCREQ_INTER" ],
+		6 : ["PCREPLY_INTER", "PCREPLY_INTER" ],
+		7 : ["URPC_BLOCK", "URPC_BLOCK" ],
+		8 : ["URPC_UNBLOCK", "URPC_UNBLOCK" ],
+		9 : ["REMOTE_CAP_RETYPE", "REMOTE_CAP_RETYPE" ],
+		10 : ["REMOTE_CAP_RETYPE_RETRY", "REMOTE_CAP_RETYPE_RETRY" ],
+		11 : ["REMOTE_CAP_RETYPE_MSG", "REMOTE_CAP_RETYPE_MSG" ],
+		12 : ["REMOTE_CAP_RETYPE_END", "REMOTE_CAP_RETYPE_END" ],
+		13 : ["POLLING", "POLLING" ],
+		14 : ["BIND_MONITOR_REPLY", "Bind monitor reply" ],
+		15 : ["BIND_MONITOR_REQUEST", "Request to setup connection with new monitor" ],
+		16 : ["BOOT_CORE_REQUEST", "Received request from (user -> monitor) [in monitor]." ],
+		17 : ["BOOT_INITIALIZE_REQUEST", "Monitor got boot initialize request" ],
+		18 : ["INVOKE_SPAWN", "Monitor requests boot-up from kernel (monitor -> kernel)." ]
+	}
+},
+5 : {
+	"name" : "chips",
+	"events" : {
+		0 : ["LISTENCB", "LISTENCB" ]
+	}
+},
+6 : {
+	"name" : "bflib",
+	"events" : {
+		0 : ["dummy", "dummy" ]
+	}
+},
+7 : {
+	"name" : "tweed",
+	"events" : {
+		0 : ["START", "START" ],
+		1 : ["END", "END" ],
+		2 : ["STEAL", "STEAL" ],
+		3 : ["STEAL_END", "STEAL_END" ],
+		4 : ["WAIT", "WAIT" ],
+		5 : ["WAIT_END", "WAIT_END" ],
+		6 : ["LOCKING", "LOCKING" ],
+		7 : ["LOCKING_END", "LOCKING_END" ]
+	}
+},
+8 : {
+	"name" : "route",
+	"events" : {
+		0 : ["BCAST_WITH_CCAST_SEND", "BCAST_WITH_CCAST_SEND" ],
+		1 : ["BCAST_WITH_CCAST", "BCAST_WITH_CCAST" ],
+		2 : ["RECV_BCAST_WITH_CCAST", "RECV_BCAST_WITH_CCAST" ],
+		3 : ["RECV_CCAST", "RECV_CCAST" ],
+		4 : ["BENCH_START", "BENCH_START" ],
+		5 : ["BENCH_STOP", "BENCH_STOP" ],
+		6 : ["SEND_PING", "SEND_PING" ],
+		7 : ["SEND_PONG", "SEND_PONG" ],
+		8 : ["RECV_PING", "RECV_PING" ],
+		9 : ["RECV_PONG", "RECV_PONG" ],
+		10 : ["POLL", "POLL" ]
+	}
+},
+9 : {
+	"name" : "bench",
+	"events" : {
+		0 : ["START", "Start the benchmark/tracing" ],
+		1 : ["STOP", "End of the benchmark/tracing" ],
+		2 : ["ROUND_START", "ROUND_START" ],
+		3 : ["ROUND_END", "ROUND_END" ],
+		4 : ["PCBENCH", "PCBENCH" ],
+		5 : ["RXPING", "RXPING" ],
+		6 : ["RXPONG", "RXPONG" ]
+	}
+},
+10 : {
+	"name" : "bomp",
+	"events" : {
+		0 : ["START", "START" ],
+		1 : ["STOP", "STOP" ],
+		2 : ["ITER", "ITER" ]
+	}
+},
+11 : {
+	"name" : "barriers",
+	"events" : {
+		0 : ["START", "START" ],
+		1 : ["STOP", "STOP" ],
+		2 : ["BARRIER_WAIT", "BARRIER_WAIT" ],
+		3 : ["CENTRAL_REQ", "CENTRAL_REQ" ],
+		4 : ["CENTRAL_REP", "CENTRAL_REP" ],
+		5 : ["TREE_REQ", "TREE_REQ" ],
+		6 : ["TREE_REP", "TREE_REP" ],
+		7 : ["DIST", "DIST" ],
+		8 : ["SEND", "SEND" ],
+		9 : ["POLL1", "POLL1" ],
+		10 : ["POLL2", "POLL2" ],
+		11 : ["HEAP_REQ", "HEAP_REQ" ],
+		12 : ["HEAP_REP", "HEAP_REP" ],
+		13 : ["SEQ_BCAST_REQ", "SEQ_BCAST_REQ" ],
+		14 : ["SEQ_BCAST_RECV", "SEQ_BCAST_RECV" ],
+		15 : ["TREE_BCAST_REQ", "TREE_BCAST_REQ" ],
+		16 : ["TREE_BCAST_RECV", "TREE_BCAST_RECV" ]
+	}
+},
+12 : {
+	"name" : "nnet",
+	"events" : {
+		0 : ["START", "START" ],
+		1 : ["STOP", "STOP" ],
+		2 : ["RXESVAPPFDONE", "Ethersrv app filtered" ],
+		3 : ["RXDRVSEE", "Driver saw pkg (RX)" ],
+		4 : ["RXESVSEE", "Ethersrv saw pkg" ],
+		5 : ["RXESVFRGDONE", "Ethersrv checked frag" ],
+		6 : ["LWIPTX", "LWIP idc_send_packet_to_network_driver" ],
+		7 : ["SCHED_REMOVE", "Process marked non-runnable" ],
+		8 : ["IRQ", "interrupt in kernelspace" ],
+		9 : ["UIRQ", "interrupt in kernelspace for userspace" ],
+		10 : ["NO_S", "e1000 packet send" ],
+		11 : ["NI_I", "e1000 interrupt arrived" ],
+		12 : ["YIELD", "process yielded" ],
+		13 : ["LWIPPBF2", "LWIP pbuf freed" ],
+		14 : ["LWIPPBA2", "LWIP pbuf Allocated" ],
+		15 : ["NI_PKT_CPY", "Queue manager packet copy" ],
+		16 : ["DRV_POLL", "e1000 polling" ],
+		17 : ["DRV_SEE", "handled packet" ],
+		18 : ["DRVTXDONE", "TX buffer reclamation" ],
+		19 : ["DRVRX", "checking for new packets" ],
+		20 : ["WEBEVENTLOOP", "Webserver event loop" ],
+		21 : ["RXESVAPPCSTART", "Ethersrv app c2u started" ],
+		22 : ["RXESVCOPIED", "Ethersrv copied pkg" ],
+		23 : ["RXESVSPPDONE", "Ethersrv spp produce done" ],
+		24 : ["RXESVAPPNOTIF", "Ethersrv app notify" ],
+		25 : ["RXLWIINCOM", "LWIP handle_incoming_" ],
+		26 : ["RXLWIRECH", "LWIP call rec_handler" ],
+		27 : ["RXAPPRCV", "APP received" ],
+		28 : ["LWIPRX", "LWIP handle incoming" ],
+		29 : ["TXAPPSNT", "APP sent" ],
+		30 : ["TXLWISEE", "LWIP idc_send_packet" ],
+		31 : ["TXLWIBFFENCE", "LWIP before mfence" ],
+		32 : ["TXLWIAFFENCE", "LWIP after mfence" ],
+		33 : ["TXLWIFLUSHED", "LWIP payload flushed" ],
+		34 : ["TXLWIBDESC", "LWIP bufferdesc fetched" ],
+		35 : ["TXLWISPPSND", "LWIP spp produced" ],
+		36 : ["TXLWISPPIDX", "LWIP update spp index" ],
+		37 : ["TXLWITXWORK", "LWIP pending TX work" ],
+		38 : ["TXLWINOTIF", "LWIP notify driver" ],
+		39 : ["TXESVNOTIF", "Ethersrv notify recieved" ],
+		40 : ["TXESVSPOW", "Ethersrv send_pkt_on_w.." ],
+		41 : ["TXESVSSPOW", "Ethersrv send_sng_pkt.." ],
+		42 : ["TXDRVADD", "Driver add pkg (TX)" ],
+		43 : ["TXDRVSEE", "Driver saw pkg done (TX)" ],
+		44 : ["TX_TCP_WRITE", "tcp_write done" ],
+		45 : ["TX_TCP_OUTPUT", "tcp_output done" ],
+		46 : ["TX_TCP_RECV", "tcp_recved done" ],
+		47 : ["TX_TCP_FREE", "tx pbuf freed" ],
+		48 : ["TX_MEMP", "tx pbuf memp start" ],
+		49 : ["TX_MEMP_D", "tx pbuf memp done" ]
+	}
+},
+13 : {
+	"name" : "multihop",
+	"events" : {
+		0 : ["BENCH_START", "BENCH_START" ],
+		1 : ["BENCH_STOP", "BENCH_STOP" ],
+		2 : ["MESSAGE_SEND", "MESSAGE_SEND" ],
+		3 : ["MESSAGE_RECEIVE", "MESSAGE_RECEIVE" ]
+	}
+},
+14 : {
+	"name" : "xmpl",
+	"events" : {
+		0 : ["START", "START" ],
+		1 : ["STOP", "STOP" ],
+		2 : ["EV1", "EV1" ],
+		3 : ["EV2", "EV2" ]
+	}
+},
+15 : {
+	"name" : "acpi",
+	"events" : {
+		0 : ["APIC_ADDED", "ACPI added fact about new core to SKB" ]
+	}
+},
+16 : {
+	"name" : "cores",
+	"events" : {
+		0 : ["USER_REQUEST", "Kaluga requests boot-up of new CPU user -> monitor." ],
+		1 : ["ALL_UP", "Everything has booted" ],
+		2 : ["BOOT_INITIALIZE_USER", "User sends boot initialize to monitor" ]
+	}
+},
+-5632 : {
+	"name" : "ump send"
+	},
+-5376 : {
+	"name" : "ump receive"
+	}
+}

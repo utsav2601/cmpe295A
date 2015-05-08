@@ -1,0 +1,3 @@
+x86_64/lib/cxx/_for_lib_cxx/unwind/UnwindRegistersRestore.o \
+ x86_64/lib/cxx/_for_lib_cxx/unwind/UnwindRegistersRestore.o.depend: \
+ ../lib/cxx/unwind/UnwindRegistersRestore.S ../lib/cxx/unwind/assembly.h

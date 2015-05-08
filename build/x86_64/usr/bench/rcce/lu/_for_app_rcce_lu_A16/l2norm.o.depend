@@ -1,0 +1,27 @@
+x86_64/usr/bench/rcce/lu/_for_app_rcce_lu_A16/l2norm.o \
+ x86_64/usr/bench/rcce/lu/_for_app_rcce_lu_A16/l2norm.o.depend: \
+ ../usr/bench/rcce/lu/l2norm.c ../lib/newlib/newlib/libc/include/math.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stddef.h \
+ ../include/c/stdarg.h ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/rcce/RCCE.h \
+ ../lib/newlib/newlib/libc/include/stdlib.h \
+ ../lib/newlib/newlib/libc/include/machine/stdlib.h \
+ ../lib/newlib/newlib/libc/include/alloca.h \
+ ../lib/newlib/newlib/libc/include/stdio.h ../include/sys/types.h \
+ ../include/sys/cdefs.h ../include/barrelfish/types.h \
+ ../include/barrelfish_kpi/types.h \
+ ../lib/newlib/newlib/libc/include/inttypes.h \
+ ../include/barrelfish/static_assert.h \
+ ../lib/newlib/newlib/libc/include/sys/stdio.h \
+ ../usr/bench/rcce/lu/applu_share.h ../usr/bench/rcce/lu/npbparams.h \
+ ../usr/bench/rcce/lu/npbparams.h.A.16 \
+ ../usr/bench/rcce/lu/applu_protos.h ../usr/bench/rcce/lu/applu_macros.h

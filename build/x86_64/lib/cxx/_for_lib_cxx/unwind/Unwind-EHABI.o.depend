@@ -1,0 +1,31 @@
+x86_64/lib/cxx/_for_lib_cxx/unwind/Unwind-EHABI.o \
+ x86_64/lib/cxx/_for_lib_cxx/unwind/Unwind-EHABI.o.depend: \
+ ../lib/cxx/unwind/Unwind-EHABI.cpp ../lib/cxx/include/unwind.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stddef.h \
+ ../include/c/stdbool.h ../lib/newlib/newlib/libc/include/stdio.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h ../include/c/stdarg.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../include/sys/types.h ../include/sys/cdefs.h \
+ ../include/barrelfish/types.h ../include/barrelfish_kpi/types.h \
+ ../lib/newlib/newlib/libc/include/inttypes.h \
+ ../lib/newlib/newlib/libc/include/stdlib.h \
+ ../lib/newlib/newlib/libc/include/machine/stdlib.h \
+ ../lib/newlib/newlib/libc/include/alloca.h \
+ ../include/barrelfish/static_assert.h \
+ ../lib/newlib/newlib/libc/include/sys/stdio.h \
+ ../lib/newlib/newlib/libc/include/string.h \
+ ../lib/newlib/newlib/libc/include/sys/string.h \
+ ../lib/cxx/unwind/config.h ../lib/newlib/newlib/libc/include/assert.h \
+ ../lib/cxx/include/libunwind.h ../lib/cxx/unwind/libunwind_ext.h \
+ ../lib/cxx/include/private_typeinfo.h ../include/cxx/typeinfo \
+ ../include/cxx/__config ../include/cxx/exception ../include/cxx/cstddef \
+ ../include/cxx/type_traits ../include/cxx/cstdint

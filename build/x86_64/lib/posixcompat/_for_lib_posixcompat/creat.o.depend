@@ -1,0 +1,9 @@
+x86_64/lib/posixcompat/_for_lib_posixcompat/creat.o \
+ x86_64/lib/posixcompat/_for_lib_posixcompat/creat.o.depend: \
+ ../lib/posixcompat/creat.c ../include/fcntl.h ../include/sys/cdefs.h \
+ ../include/sys/_types.h ../lib/newlib/newlib/libc/include/stdint.h \
+ ../include/c/stddef.h ../include/c/stdarg.h \
+ ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h

@@ -1,0 +1,51 @@
+x86_64/lib/cxx/_for_lib_cxx/unwind/libunwind.o \
+ x86_64/lib/cxx/_for_lib_cxx/unwind/libunwind.o.depend: \
+ ../lib/cxx/unwind/libunwind.cpp ../lib/cxx/include/libunwind.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stddef.h \
+ ../include/cxx/cstdlib ../include/cxx/__config \
+ ../lib/newlib/newlib/libc/include/stdlib.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/sys/_types.h \
+ ../include/c/stdarg.h ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../lib/newlib/newlib/libc/include/machine/stdlib.h \
+ ../lib/newlib/newlib/libc/include/alloca.h ../include/cxx/new \
+ ../include/cxx/exception ../include/cxx/cstddef \
+ ../include/cxx/type_traits ../lib/cxx/unwind/libunwind_ext.h \
+ ../lib/cxx/unwind/config.h ../lib/newlib/newlib/libc/include/assert.h \
+ ../lib/newlib/newlib/libc/include/stdio.h ../include/sys/types.h \
+ ../include/sys/cdefs.h ../include/barrelfish/types.h \
+ ../include/barrelfish_kpi/types.h \
+ ../lib/newlib/newlib/libc/include/inttypes.h \
+ ../include/barrelfish/static_assert.h \
+ ../lib/newlib/newlib/libc/include/sys/stdio.h \
+ ../lib/cxx/include/unwind.h ../lib/cxx/unwind/UnwindCursor.hpp \
+ ../include/cxx/algorithm ../include/cxx/initializer_list \
+ ../include/cxx/cstring ../lib/newlib/newlib/libc/include/string.h \
+ ../lib/newlib/newlib/libc/include/sys/string.h ../include/cxx/utility \
+ ../include/cxx/__tuple ../include/cxx/memory ../include/cxx/typeinfo \
+ ../include/cxx/cstdint ../include/cxx/limits \
+ ../include/cxx/__undef_min_max ../include/cxx/iterator \
+ ../include/cxx/__functional_base ../include/cxx/iosfwd \
+ ../lib/newlib/newlib/libc/include/wchar.h ../include/cxx/tuple \
+ ../include/pthread.h ../include/sys/_pthreadtypes.h \
+ ../include/arch/x86_64/machine/_limits.h ../include/sys/_sigset.h \
+ ../lib/newlib/newlib/libc/include/sched.h \
+ ../lib/newlib/newlib/libc/include/sys/sched.h ../include/time.h \
+ ../lib/newlib/newlib/libc/include/time.h \
+ ../lib/newlib/newlib/libc/include/machine/time.h \
+ ../lib/cxx/unwind/AddressSpace.hpp ../include/dlfcn.h \
+ ../lib/cxx/unwind/dwarf2.h ../lib/cxx/unwind/Registers.hpp \
+ ../include/strings.h ../lib/cxx/unwind/DwarfInstructions.hpp \
+ ../lib/cxx/unwind/DwarfParser.hpp ../include/cxx/vector \
+ ../include/cxx/__bit_reference ../include/cxx/climits \
+ ../include/limits.h ../include/cxx/stdexcept \
+ ../include/cxx/__split_buffer ../lib/cxx/unwind/CompactUnwinder.hpp \
+ ../lib/cxx/include/mach-o/compact_unwind_encoding.h

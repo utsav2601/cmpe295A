@@ -1,0 +1,5 @@
+x86_64/lib/cxx/_for_lib_cxx/cxx/utility.o \
+ x86_64/lib/cxx/_for_lib_cxx/cxx/utility.o.depend: \
+ ../lib/cxx/cxx/utility.cpp ../include/cxx/utility \
+ ../include/cxx/__config ../include/cxx/__tuple ../include/cxx/cstddef \
+ ../include/c/stddef.h ../include/cxx/type_traits

@@ -1,0 +1,6 @@
+x86_64/lib/cxx/_for_lib_cxx/cxxabi/cxa_vector.o \
+ x86_64/lib/cxx/_for_lib_cxx/cxxabi/cxa_vector.o.depend: \
+ ../lib/cxx/cxxabi/cxa_vector.cpp ../lib/cxx/include/cxxabi.h \
+ ../include/c/stddef.h ../lib/newlib/newlib/libc/include/stdint.h \
+ ../include/cxx/exception ../include/cxx/__config ../include/cxx/cstddef \
+ ../include/cxx/type_traits

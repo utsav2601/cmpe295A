@@ -1,0 +1,3 @@
+x86_64/usr/bench/xomp_bench/_for_app_benchmarks/xomp_spawn/common.o \
+ x86_64/usr/bench/xomp_bench/_for_app_benchmarks/xomp_spawn/common.o.depend: \
+ ../usr/bench/xomp_bench/common.c

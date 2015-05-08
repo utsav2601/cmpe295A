@@ -1,0 +1,26 @@
+x86_64/usr/monitor/_for_app_monitor/capops/capqueue.o \
+ x86_64/usr/monitor/_for_app_monitor/capops/capqueue.o.depend: \
+ ../usr/monitor/capops/capqueue.c \
+ ../lib/newlib/newlib/libc/include/string.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stddef.h \
+ ../include/c/stdarg.h ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../lib/newlib/newlib/libc/include/sys/string.h \
+ ../usr/monitor/include/capqueue.h ../include/c/stdbool.h \
+ ../include/barrelfish/event_queue.h ../include/sys/cdefs.h \
+ ../include/barrelfish/waitset.h ../include/barrelfish/types.h \
+ ../include/barrelfish_kpi/types.h \
+ ../lib/newlib/newlib/libc/include/inttypes.h \
+ ../lib/newlib/newlib/libc/include/stdlib.h \
+ ../lib/newlib/newlib/libc/include/machine/stdlib.h \
+ ../lib/newlib/newlib/libc/include/alloca.h \
+ ../include/barrelfish/static_assert.h x86_64/include/errors/errno.h

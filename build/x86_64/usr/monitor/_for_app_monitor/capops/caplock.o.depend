@@ -1,0 +1,35 @@
+x86_64/usr/monitor/_for_app_monitor/capops/caplock.o \
+ x86_64/usr/monitor/_for_app_monitor/capops/caplock.o.depend: \
+ ../usr/monitor/capops/caplock.c ../usr/monitor/include/caplock.h \
+ ../include/barrelfish/caddr.h ../include/c/stdbool.h \
+ ../include/sys/cdefs.h ../include/barrelfish_kpi/types.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stddef.h \
+ ../lib/newlib/newlib/libc/include/inttypes.h \
+ ../lib/newlib/newlib/libc/include/stdlib.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/sys/_types.h \
+ ../include/c/stdarg.h ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../lib/newlib/newlib/libc/include/machine/stdlib.h \
+ ../lib/newlib/newlib/libc/include/alloca.h \
+ ../include/barrelfish/static_assert.h ../include/barrelfish/waitset.h \
+ ../include/barrelfish/types.h x86_64/include/errors/errno.h \
+ ../usr/monitor/include/capops.h ../include/barrelfish_kpi/capabilities.h \
+ ../lib/newlib/newlib/libc/include/assert.h \
+ x86_64/include/barrelfish_kpi/capbits.h ../usr/monitor/include/domcap.h \
+ ../include/barrelfish/event_queue.h ../include/barrelfish/debug.h \
+ ../include/arch/x86_64/barrelfish_kpi/registers_arch.h \
+ ../include/target/x86_64/barrelfish_kpi/registers_target.h \
+ ../include/arch/x86_64/barrelfish_kpi/eflags_arch.h \
+ ../include/barrelfish/dispatch.h \
+ ../include/barrelfish_kpi/dispatcher_handle.h \
+ ../usr/monitor/include/monitor_invocations.h \
+ ../include/barrelfish_kpi/distcaps.h ../usr/monitor/include/domcap.h \
+ ../usr/monitor/include/capqueue.h ../usr/monitor/include/monitor_debug.h

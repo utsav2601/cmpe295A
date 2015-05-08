@@ -1,0 +1,3 @@
+x86_64/usr/drivers/virtio/console/_for_app_virtio_console_host/main_host.o \
+ x86_64/usr/drivers/virtio/console/_for_app_virtio_console_host/main_host.o.depend: \
+ ../usr/drivers/virtio/console/main_host.c

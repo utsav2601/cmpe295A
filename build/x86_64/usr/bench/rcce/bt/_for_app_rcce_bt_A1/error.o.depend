@@ -1,0 +1,27 @@
+x86_64/usr/bench/rcce/bt/_for_app_rcce_bt_A1/error.o \
+ x86_64/usr/bench/rcce/bt/_for_app_rcce_bt_A1/error.o.depend: \
+ ../usr/bench/rcce/bt/error.c ../lib/newlib/newlib/libc/include/math.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stddef.h \
+ ../include/c/stdarg.h ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../usr/bench/rcce/bt/header.h \
+ ../usr/bench/rcce/bt/npbparams.h ../usr/bench/rcce/bt/npbparams.h.A.1 \
+ ../include/rcce/RCCE.h ../lib/newlib/newlib/libc/include/stdlib.h \
+ ../lib/newlib/newlib/libc/include/machine/stdlib.h \
+ ../lib/newlib/newlib/libc/include/alloca.h \
+ ../lib/newlib/newlib/libc/include/stdio.h ../include/sys/types.h \
+ ../include/sys/cdefs.h ../include/barrelfish/types.h \
+ ../include/barrelfish_kpi/types.h \
+ ../lib/newlib/newlib/libc/include/inttypes.h \
+ ../include/barrelfish/static_assert.h \
+ ../lib/newlib/newlib/libc/include/sys/stdio.h \
+ ../usr/bench/rcce/bt/common.h ../usr/bench/rcce/bt/mpinpb.h \
+ ../usr/bench/rcce/bt/applu_macros.h

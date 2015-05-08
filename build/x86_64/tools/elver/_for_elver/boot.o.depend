@@ -1,0 +1,3 @@
+x86_64/tools/elver/_for_elver/boot.o \
+ x86_64/tools/elver/_for_elver/boot.o.depend: ../tools/elver/boot.S \
+ ../tools/elver/../../kernel/include/multiboot.h

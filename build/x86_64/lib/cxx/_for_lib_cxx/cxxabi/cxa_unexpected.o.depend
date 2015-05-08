@@ -1,0 +1,7 @@
+x86_64/lib/cxx/_for_lib_cxx/cxxabi/cxa_unexpected.o \
+ x86_64/lib/cxx/_for_lib_cxx/cxxabi/cxa_unexpected.o.depend: \
+ ../lib/cxx/cxxabi/cxa_unexpected.cpp ../include/cxx/exception \
+ ../include/cxx/__config ../include/cxx/cstddef ../include/c/stddef.h \
+ ../include/cxx/type_traits ../lib/cxx/include/cxxabi.h \
+ ../lib/newlib/newlib/libc/include/stdint.h \
+ ../lib/cxx/cxxabi/cxa_exception.hpp ../lib/cxx/include/unwind.h

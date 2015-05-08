@@ -1,0 +1,24 @@
+x86_64/lib/cxx/_for_lib_cxx/cxxabi/stdexcept.o \
+ x86_64/lib/cxx/_for_lib_cxx/cxxabi/stdexcept.o.depend: \
+ ../lib/cxx/cxxabi/stdexcept.cpp ../include/cxx/__refstring \
+ ../include/cxx/__config ../include/cxx/cstddef ../include/c/stddef.h \
+ ../include/cxx/cstring ../lib/newlib/newlib/libc/include/string.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stdarg.h \
+ ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../lib/newlib/newlib/libc/include/sys/string.h ../include/cxx/stdexcept \
+ ../include/cxx/exception ../include/cxx/type_traits \
+ ../include/cxx/iosfwd ../lib/newlib/newlib/libc/include/wchar.h \
+ ../include/cxx/new ../include/cxx/cstdlib \
+ ../lib/newlib/newlib/libc/include/stdlib.h \
+ ../lib/newlib/newlib/libc/include/machine/stdlib.h \
+ ../lib/newlib/newlib/libc/include/alloca.h ../include/cxx/cstdint

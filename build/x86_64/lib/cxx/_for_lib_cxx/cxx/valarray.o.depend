@@ -1,0 +1,26 @@
+x86_64/lib/cxx/_for_lib_cxx/cxx/valarray.o \
+ x86_64/lib/cxx/_for_lib_cxx/cxx/valarray.o.depend: \
+ ../lib/cxx/cxx/valarray.cpp ../include/cxx/valarray \
+ ../include/cxx/__config ../include/cxx/cstddef ../include/c/stddef.h \
+ ../include/cxx/cmath ../lib/newlib/newlib/libc/include/math.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stdarg.h \
+ ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/cxx/type_traits \
+ ../include/cxx/initializer_list ../include/cxx/algorithm \
+ ../include/cxx/cstring ../lib/newlib/newlib/libc/include/string.h \
+ ../lib/newlib/newlib/libc/include/sys/string.h ../include/cxx/utility \
+ ../include/cxx/__tuple ../include/cxx/memory ../include/cxx/typeinfo \
+ ../include/cxx/exception ../include/cxx/cstdint ../include/cxx/new \
+ ../include/cxx/limits ../include/cxx/__undef_min_max \
+ ../include/cxx/iterator ../include/cxx/__functional_base \
+ ../include/cxx/iosfwd ../lib/newlib/newlib/libc/include/wchar.h \
+ ../include/cxx/tuple ../include/cxx/functional

@@ -1,0 +1,23 @@
+x86_64/lib/lua/_for_lib_lua/src/lundump.o \
+ x86_64/lib/lua/_for_lib_lua/src/lundump.o.depend: \
+ ../lib/lua/src/lundump.c ../lib/newlib/newlib/libc/include/string.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h \
+ ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/stdint.h ../include/c/stddef.h \
+ ../include/c/stdarg.h ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../lib/newlib/newlib/libc/include/sys/string.h ../include/lua/lua.h \
+ ../include/lua/luaconf.h ../include/limits.h ../include/sys/cdefs.h \
+ ../include/arch/x86_64/machine/_limits.h \
+ ../lib/newlib/newlib/libc/include/sys/syslimits.h \
+ ../lib/lua/src/ldebug.h ../lib/lua/src/lstate.h ../lib/lua/src/lobject.h \
+ ../lib/lua/src/llimits.h ../lib/lua/src/ltm.h ../lib/lua/src/lzio.h \
+ ../lib/lua/src/lmem.h ../lib/lua/src/ldo.h ../lib/lua/src/lfunc.h \
+ ../lib/lua/src/lstring.h ../lib/lua/src/lgc.h ../lib/lua/src/lundump.h

@@ -1,0 +1,3 @@
+x86_64/lib/dma/_for_lib_dma/xeon_phi/xeon_phi_dma.o \
+ x86_64/lib/dma/_for_lib_dma/xeon_phi/xeon_phi_dma.o.depend: \
+ ../lib/dma/xeon_phi/xeon_phi_dma.c

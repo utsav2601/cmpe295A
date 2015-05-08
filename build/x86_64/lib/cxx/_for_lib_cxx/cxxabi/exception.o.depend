@@ -1,0 +1,5 @@
+x86_64/lib/cxx/_for_lib_cxx/cxxabi/exception.o \
+ x86_64/lib/cxx/_for_lib_cxx/cxxabi/exception.o.depend: \
+ ../lib/cxx/cxxabi/exception.cpp ../include/cxx/exception \
+ ../include/cxx/__config ../include/cxx/cstddef ../include/c/stddef.h \
+ ../include/cxx/type_traits

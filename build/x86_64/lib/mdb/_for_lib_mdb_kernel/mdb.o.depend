@@ -1,0 +1,35 @@
+x86_64/lib/mdb/_for_lib_mdb_kernel/mdb.o \
+ x86_64/lib/mdb/_for_lib_mdb_kernel/mdb.o.depend: ../lib/mdb/mdb.c \
+ ../include/deputy/nodeputy.h ../lib/newlib/newlib/libc/include/stdio.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h \
+ ../lib/newlib/newlib/libc/include/newlib.h \
+ ../lib/newlib/newlib/libc/include/sys/config.h \
+ ../lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ ../lib/newlib/newlib/libc/include/sys/features.h ../include/c/stddef.h \
+ ../include/c/stdarg.h ../lib/newlib/newlib/libc/include/sys/reent.h \
+ ../lib/newlib/newlib/libc/include/_ansi.h ../include/sys/_types.h \
+ ../lib/newlib/newlib/libc/include/stdint.h \
+ ../lib/newlib/newlib/libc/include/sys/lock.h \
+ ../include/barrelfish/thread_sync.h \
+ ../include/arch/x86_64/barrelfish_kpi/spinlocks_arch.h \
+ ../include/arch/x86/barrelfish_kpi/spinlocks_arch.h \
+ ../include/sys/types.h ../include/sys/cdefs.h \
+ ../include/barrelfish/types.h ../include/barrelfish_kpi/types.h \
+ ../lib/newlib/newlib/libc/include/inttypes.h \
+ ../lib/newlib/newlib/libc/include/stdlib.h \
+ ../lib/newlib/newlib/libc/include/machine/stdlib.h \
+ ../include/barrelfish/static_assert.h \
+ ../lib/newlib/newlib/libc/include/sys/stdio.h \
+ ../lib/newlib/newlib/libc/include/string.h \
+ ../lib/newlib/newlib/libc/include/sys/string.h \
+ x86_64/include/errors/errno.h ../include/c/stdbool.h \
+ ../include/barrelfish_kpi/syscalls.h \
+ ../include/barrelfish_kpi/distcaps.h \
+ ../include/barrelfish_kpi/capabilities.h \
+ ../lib/newlib/newlib/libc/include/assert.h \
+ x86_64/include/barrelfish_kpi/capbits.h ../kernel/include/capabilities.h \
+ ../include/mdb/mdb.h ../include/mdb/types.h \
+ ../kernel/include/arch/x86_64/offsets.h \
+ ../kernel/include/target/x86_64/offsets_target.h \
+ ../kernel/include/cap_predicates.h ../kernel/include/paging_generic.h \
+ ../include/mdb/mdb_tree.h

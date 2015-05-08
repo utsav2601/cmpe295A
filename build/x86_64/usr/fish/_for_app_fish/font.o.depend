@@ -1,0 +1,2 @@
+x86_64/usr/fish/_for_app_fish/font.o \
+ x86_64/usr/fish/_for_app_fish/font.o.depend: ../usr/fish/font.c
